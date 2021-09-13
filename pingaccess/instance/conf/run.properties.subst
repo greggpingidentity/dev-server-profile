@@ -38,7 +38,7 @@ admin.httptransport.maxThreadPoolSize=-1
 admin.httptransport.socketTimeout=30000
 
 # Set to native to override the administrator authentication method.
-admin.auth=default
+admin.auth=native
 
 admin.reuseAddress=true
 #max body length in a request for admin API expressed in MBs
