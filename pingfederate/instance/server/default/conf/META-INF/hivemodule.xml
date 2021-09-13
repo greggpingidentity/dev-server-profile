@@ -144,6 +144,7 @@
 
     <!-- Service for storing OAuth client configuration. -->
     <service-point id="ClientManager" interface="org.sourceid.oauth20.domain.ClientManager">
+        <invoke-factory model="autoreloadable">
             <!--
                 Supported classes are
                         org.sourceid.oauth20.domain.ClientManagerXmlFileImpl            : Use this service-point for a XML implementation.
@@ -152,6 +153,7 @@
                         org.sourceid.oauth20.domain.ClientManagerGenericImpl            : Use this service-point if you have specified a custom ClientStorageManager implementation above.
             -->
             <construct class="org.sourceid.oauth20.domain.ClientManagerXmlFileImpl"/>
+        </invoke-factory>
     </service-point>
 
     <!-- Service for storing Authentication Sessions. -->
