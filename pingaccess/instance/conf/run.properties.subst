@@ -278,7 +278,7 @@ pa.admin.user.password.regex=((?\=.*\\d)(?\=.*[a-z])(?\=.*[A-Z]).{6,64})
 pa.admin.user.password.error.message=Password must be 6 to 64 characters in length, and contain at least one upper-case letter, one lower-case letter and one digit.
 pa.admin.test.connections=true
 
-account.locking.max.consecutive.failures=3
+account.locking.max.consecutive.failures=5
 account.locking.max.lockout.period=1
 
 #-------------------------------------------------------------------------------

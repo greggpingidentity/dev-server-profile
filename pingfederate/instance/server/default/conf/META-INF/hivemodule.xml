@@ -1,0 +1,13 @@
+<!-- Service for storing OAuth client configuration. -->
+<service-point id="ClientManager" interface="org.sourceid.oauth20.domain.ClientManager">
+    <invoke-factory>
+        <!--
+        Supported classes are
+        org.sourceid.oauth20.domain.ClientManagerXmlFileImpl ...
+        org.sourceid.oauth20.domain.ClientManagerJdbcImpl    ...
+        org.sourceid.oauth20.domain.ClientManagerLdapImpl    ...
+        org.sourceid.oauth20.domain.ClientManagerGenericImpl ...
+        -->
+        <construct class="org.sourceid.oauth20.domain.ClientManagerXmlFileImpl"/>
+    </invoke-factory>
+</service-point>
