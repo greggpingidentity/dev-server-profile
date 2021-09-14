@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urn:Clients xmlns:urn="urn:pingidentity.com:pf:oauth:client">
-    <urn:Client client_id="pa_wam" name="PingAccessWebAccessManagement" logo="" secret="O09rJfWJr1lhJchfgw5vPqLFHjWwqv4dZ9BPJgZ53CU.AnKUoUrr.2" persistentGrantExpirationTime="0" enabled="true" lastModified="2021-09-14T15:43:45.701Z" bypassApprovalPage="true" restrictScopes="false" jwksUri="" jwks="" clientAuthnType="SECRET" enforceOneTimeJWT="false" isRequireSignedRequest="false">
+    <urn:Client client_id="PingLogon" name="PingLogon" logo="" persistentGrantExpirationTime="0" enabled="true" lastModified="2021-09-14T15:50:47.374Z" bypassApprovalPage="false" restrictScopes="false" jwksUri="" jwks="" clientAuthnType="NONE" enforceOneTimeJWT="false" isRequireSignedRequest="false">
         <urn:Description/>
+        <urn:Grant type="refresh_token"/>
+        <urn:Grant type="implicit"/>
         <urn:Grant type="authorization_code"/>
-        <urn:RedirectUri>https://localhost:3000/pa/oidc/cb</urn:RedirectUri>
-        <urn:RedirectUri>https://ggg-dev.ping-devops.com:443/pa/oidc/cb</urn:RedirectUri>
+        <urn:RedirectUri>https://decoder.pingidentity.cloud/implicit</urn:RedirectUri>
+        <urn:RedirectUri>https://decoder.pingidentity.cloud/oidc</urn:RedirectUri>
         <urn:SupplementalInfo key="DEVICE_FLOW_SETTING" value="SERVER_DEFAULT"/>
         <urn:SupplementalInfo key="RESTRICT_RESPONSE_TYPES" value="false"/>
         <urn:SupplementalInfo key="ACCESS_SESSION_MANAGEMENT_API" value="false"/>
