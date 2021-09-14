@@ -3,7 +3,7 @@
     <adm:user>
         <adm:user-name>Administrator</adm:user-name>
         <adm:salt/>
-        <adm:hash>Mc-Cjm_YsOUqx5W6KNWHfe8Uf8tDrw1GINydihJmVCs.CIQHxMkZ.2</adm:hash>
+        <adm:hash>i74-eI7LfQZrZn8ntL2ACsuJ891ZX9gtXXgvB-LfT3s.qGyrVKON.2</adm:hash>
         <adm:phone-number xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
         <adm:email-address xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
         <adm:department xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
@@ -11,6 +11,7 @@
         <adm:admin-manager>true</adm:admin-manager>
         <adm:admin>true</adm:admin>
         <adm:crypto-manager>true</adm:crypto-manager>
+        <adm:expression-manager>true</adm:expression-manager>
         <adm:auditor>false</adm:auditor>
         <adm:active>true</adm:active>
         <adm:password-change-required>false</adm:password-change-required>

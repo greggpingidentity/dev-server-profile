@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:OAuthIssuers xmlns:urn="urn:pingidentity.com:pf:oauth:issuer">
+    <urn:OAuthIssuerType id="n5bolAShufx8Ma1wwSO1EyWunT" name="https://pingfederate:9031/" description="" host="pingfederate" path=""/>
+</urn:OAuthIssuers>

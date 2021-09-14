@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<EntityDescriptor entityID="evaluation" cacheDuration="PT1440M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:sid="urn:sourceid.org:saml2:local-metadata-extension:v2">
+<EntityDescriptor cacheDuration="PT1440M" entityID="evaluation" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:sid="urn:sourceid.org:saml2:local-metadata-extension:v2">
     <!--This block contains Ping's proprietary endpoints-->
     <Extensions>
-        <sid:SourceIDExtension BaseURL="https://localhost:9031" Saml1xId="" WsFedID="" Saml1xSrcId="" EnableWsFedIdP="false" EnableWsFedSp="false" EnableSaml20IdP="true" EnableSaml20Sp="false" EnableSaml11Rp="false" EnableSaml11Ap="false" EnableSaml10Rp="false" EnableSaml10Ap="false" EnableSpWsTrustSts="false" EnableInboundProvisioning="false" EnableIdpWsTrustSts="false" EnableX509Discovery="false" EnableIdpDiscovery="false" DisableAutomaticConnectionValidation="false" DataStoreValidationInterval="300" CustomGlobalHttpHeaderName="" ClientIpHeaderIndex="last" ForwardedHostHeaderName="" ForwardedHostHeaderIndex="last" ProxyTerminatesHttpsConns="false" MetadataSigningKeyAlias="" MetadataSigningAlgorithm="" MetadataSigningKeyMD5Fingerprint="" ConfirmIdpSlo="false" ClientCertSSLHeaderName="" ClientCertChainSSLHeaderName="" EnableOIDCSp="false">
-            <sid:LocalPathsDescriptor Suffix=".ping" ResumePathPrefix="/resume">
+        <sid:SourceIDExtension BaseURL="https://localhost:9031" ClientCertChainSSLHeaderName="" ClientCertSSLHeaderName="" ClientIpHeaderIndex="last" ConfirmIdpSlo="false" CustomGlobalHttpHeaderName="" DataStoreValidationInterval="300" DisableAutomaticConnectionValidation="false" EnableIdpDiscovery="false" EnableIdpWsTrustSts="false" EnableInboundProvisioning="false" EnableOIDCSp="false" EnableSaml10Ap="false" EnableSaml10Rp="false" EnableSaml11Ap="false" EnableSaml11Rp="false" EnableSaml20IdP="true" EnableSaml20Sp="false" EnableSpWsTrustSts="false" EnableWsFedIdP="false" EnableWsFedSp="false" EnableX509Discovery="false" ForwardedHostHeaderIndex="last" ForwardedHostHeaderName="" MetadataSigningAlgorithm="" MetadataSigningKeyAlias="" MetadataSigningKeyMD5Fingerprint="" ProxyTerminatesHttpsConns="false" RequestHeaderNameForCorrelationId="" Saml1xId="localhost:default:entityId" Saml1xSrcId="" WsFedID="">
+            <sid:LocalPathsDescriptor ResumePathPrefix="/resume" Suffix=".ping">
                 <sid:IDPLocalPaths>
                     <!--This endpoint is used by an IdP application to ask
                       this local PingFederate server to initiate a Single
@@ -44,7 +44,7 @@
     </Extensions>
     <!--No longer used but needed for xml schema validation-->
     <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-        <AssertionConsumerService Location="nope" index="0" Binding="nope"/>
+        <AssertionConsumerService Binding="nope" Location="nope" index="0"/>
     </SPSSODescriptor>
     <ContactPerson contactType="administrative"/>
 </EntityDescriptor>

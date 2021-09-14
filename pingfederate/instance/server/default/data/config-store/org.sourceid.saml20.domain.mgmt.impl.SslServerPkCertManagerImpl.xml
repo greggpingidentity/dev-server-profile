@@ -2,9 +2,11 @@
 <con:config xmlns:con="http://www.sourceid.org/2004/05/config">
     <con:item name="AutoCreateCertOnEngineNode">true</con:item>
     <con:list name="ActiveServerAliases">
-        <con:ListItem>vtcm75en83g6v1r87ytm7lihi</con:ListItem>
+        <con:ListItem>clktuvpttuasgvb65ma4wia3d</con:ListItem>
     </con:list>
     <con:list name="ActiveAdminServerAliases">
-        <con:ListItem>vtcm75en83g6v1r87ytm7lihi</con:ListItem>
+        <con:ListItem>i7xvtaubq40992e317kvffe7u</con:ListItem>
     </con:list>
+    <con:item name="DefaultActiveServerAlias">clktuvpttuasgvb65ma4wia3d</con:item>
+    <con:item name="DefaultActiveAdminServerAlias">i7xvtaubq40992e317kvffe7u</con:item>
 </con:config>

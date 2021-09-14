@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:AdapterConfiguration isInheritExtendedContractAttributes="false" name="com.pingidentity.plugins.datastore.p14c.PingOneForCustomersDataStore" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="PingOne Environment">qILPN1aWxfFsWfqQcuRXK7|4d03914a-5c4a-4fd2-8ebd-f97c277373b5</urn:Field>
+        <urn:Field name="Environment ID"/>
+        <urn:Field name="Client ID"/>
+        <urn:Field name="Client Secret"/>
+        <urn:Field name="Region"/>
+        <urn:Field name="PingOne API Service"/>
+        <urn:Field name="PingOne Authorization Service"/>
+        <urn:Field name="Connection Timeout">10000</urn:Field>
+        <urn:Field name="Retry Request">true</urn:Field>
+        <urn:Field name="Maximum Retries Limit">5</urn:Field>
+        <urn:Field name="Retry Error Codes">429</urn:Field>
+        <urn:Field name="Proxy Settings">System Defaults</urn:Field>
+        <urn:Field name="Custom Proxy Host"/>
+        <urn:Field name="Custom Proxy Port"/>
+        <urn:Field name="Read Timeout"/>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="PingOne API Service"/>
+        <urn:Field name="PingOne Authorization Service"/>
+        <urn:Field name="Connection Timeout">10000</urn:Field>
+        <urn:Field name="Retry Request">true</urn:Field>
+        <urn:Field name="Maximum Retries Limit">5</urn:Field>
+        <urn:Field name="Retry Error Codes">429</urn:Field>
+        <urn:Field name="Proxy Settings">System Defaults</urn:Field>
+        <urn:Field name="Custom Proxy Host"/>
+        <urn:Field name="Custom Proxy Port"/>
+        <urn:Field name="Read Timeout"/>
+    </urn:AdvancedFields>
+    <urn:Tables>
+        <urn:Table name="Custom Attributes Details"/>
+    </urn:Tables>
+</urn:AdapterConfiguration>
